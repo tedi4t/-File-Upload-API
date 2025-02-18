@@ -19,9 +19,6 @@ const storage = multer.diskStorage({
   }
 });
 
-
-
-
 // Initialize Multer with storage settings
 const upload = multer({
   storage,
